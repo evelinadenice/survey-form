@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: url("img/catbackground6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    color: #982B52;
+}
+
+#description {
+    color: #982B52;
+    font-size: 18px;
+}
+
+form {
+    width: 40%;
+    min-height: 100vh;
+    background-color: #6a0831a2;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.move {
+margin-bottom: 30px;
+width: 100%;
+height: 30px;
+border-radius: 8px;
+border: 1px solid white;
+}
+
+input {
+    padding-left: 7px;
+}
+
+h2 {
+    color: white;
+}
+
+#dropdown {
+margin-bottom: 30px;
+width: 101.5%;
+height: 33px;
+border-radius: 8px;
+border: 1px solid white;
+}
+
+#cat2{
+    margin-bottom: 20px;
+}
+
+.radio-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-radio, .input-checkbox {
+    margin-right: 5px ;
+}
+
+label {
+    color: white;
+}
+
+#dropdown2 {
+    margin-bottom: 30px;
+    width: 101.5%;
+    height: 33px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+#cat {
+    margin-top: 10px;
+}
+
+.checkbox2{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-textarea{
+    min-height: 120px;
+    width: 97%;
+    padding: 0.625rem;
+    resize: vertical;
+    border-radius: 5px;
+  }
+
+  .submit-button {
+    display: block;
+    width: 100.5%;
+    padding: 18px;
+    background-color : #6A1443;
+    border-color: #530d34;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
